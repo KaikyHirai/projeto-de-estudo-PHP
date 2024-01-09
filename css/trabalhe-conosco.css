@@ -1,0 +1,104 @@
+* {
+    font-family: Didot, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(38, 38, 75);
+}
+
+.container-cadastro {
+    align-items: center;
+    display: flex;
+    height: 900px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.caixa-cadastro {
+    -webkit-box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33); 
+    align-items: center;
+    background-color: rgb(38, 38, 75);
+    border-radius: 5px;
+    border: 3px solid rgb(20, 83, 219);
+    box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33);
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    margin-top: 1%;
+    width: 30%;
+}
+
+.conteudo-formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 80%;
+}
+
+.conteudo-formulario h3 {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    letter-spacing: 4px;
+    margin-top: 8%;
+}
+
+.conteudo-formulario a:hover{
+    color: rgb(0, 60, 255);
+    transition: ease-in 0.5s;
+}
+
+.conteudo-formulario #form-log {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 7%;
+    height: 65%;
+    margin-top: 10%;
+}
+
+.conteudo-formulario #form-log #input-log {
+    background-color: rgb(38, 38, 75);
+    border-radius: 15px;
+    border: 1px solid rgb(0, 60, 255);
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    text-align: center;
+    width: 250%;
+}
+
+.conteudo-formulario #form-log #label-curriculo {
+    color: white;
+    font-size: larger;
+}
+
+.conteudo-formulario #form-log #curriculo-log {
+    background-color: rgb(38, 38, 75);
+    border: 1px solid rgb(0, 60, 255);
+    border-radius: 30px;
+    font-size: 15px;
+    height: 70px;
+    resize: none;
+    text-align: justify;
+    width: 250%;
+    padding-left: 6%;
+    color: white;
+}
+
+.conteudo-formulario #form-log #botao-log {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 60, 255);
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 50%;
+}
+
+.conteudo-formulario #form-log #botao-log:hover {
+    opacity: 0.5;
+}

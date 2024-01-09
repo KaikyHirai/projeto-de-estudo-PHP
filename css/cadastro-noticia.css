@@ -1,0 +1,88 @@
+* {
+    font-family: Didot, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(38, 38, 75);
+}
+
+.container-noticia {
+    align-items: center;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.caixa-cadastro {
+    -webkit-box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33); 
+    border: 2px solid rgb(20, 83, 219); 
+    box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33);
+    height: 700px;
+    width: 60%;
+}
+
+.conteudo-noticia {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-noticia h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.conteudo-noticia #form-log {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    width: 80%;
+}
+
+.conteudo-noticia #form-log label {
+    color: white;
+    font-size: 20px;
+}
+
+.conteudo-noticia #input-log {
+    border-radius: 10px;
+    height: 40px;
+    width: 90%;
+}
+
+.conteudo-noticia #conteudo-log {
+    border-radius: 5px;
+    height: 300px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    resize: none;
+    width: 90%;
+}
+
+.conteudo-noticia #img-log {
+    color: white;
+}
+
+.conteudo-noticia #form-log #botao-log {
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgb(0, 60, 255);
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 2%;
+    width: 10%;
+}
+
+.conteudo-noticia #form-log #botao-log:hover {
+    opacity: 0.5;
+}

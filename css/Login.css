@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Didot, serif;
+}
+
+body {
+    background-color: rgb(38, 38, 75);
+}
+
+.container-login {
+    align-items: center;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.caixa-login {
+    margin-top: 5%;
+    align-items: center;
+    border-radius: 5px;
+    border: 3px solid rgb(20, 83, 219);
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    width: 30%;
+    -webkit-box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33); 
+    box-shadow: 3px 8px 17px 0px rgba(0,0,0,0.33);
+}
+
+.conteudo-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.conteudo-formulario h3 {
+    color: white;
+    margin-top: 8%;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
+
+.conteudo-formulario p {
+    color: white;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.conteudo-formulario a{
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo-formulario a:hover{
+    color: rgb(20, 83, 219);
+    transition: ease-in 0.5s;
+}
+
+.conteudo-formulario #form-log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    gap: 15%;
+    height: 40%;
+}
+
+.conteudo-formulario #form-log #input-log {
+    height: 40px;
+    width: 250%;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(20, 83, 219);
+    background-color: rgb(38, 38, 75);
+    color: white;
+}
+
+.conteudo-formulario #form-log #botao-log {
+    height: 40px;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid rgb(20, 83, 219);
+    background-color: transparent;
+    color: white;
+}
+
+.conteudo-formulario #form-log #botao-log:hover {
+opacity: 0.5;
+}
